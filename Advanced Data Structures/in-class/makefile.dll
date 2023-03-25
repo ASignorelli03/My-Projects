@@ -1,0 +1,11 @@
+dll.exe: driver.o Node.o 
+	g++ driver.o Node.o -o dll.exe
+	
+driver.o:
+	g++ -c driver.cpp -o driver.o
+	
+node.o:
+	g++ -c node.cpp -o node.o
+	
+clean:
+	rm *.o bit.exe

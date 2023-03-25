@@ -1,0 +1,20 @@
+Classes.exe: drive.o Student.o
+	g++ drive.o Student.o -o Classes.exe
+
+drive.o:
+	g++ -c drive.cpp -o drive.o
+
+Student.o:
+	g++ -c Student.cpp -o Student.o
+
+clean:
+	rm *.o Classes.exe
+	
+Car.exe: driver.o Car.o
+	g++ driver.o Car.o -o Car.exe
+
+driver.o:
+	g++ -c driver.cpp - driver-o
+	
+Car.o:
+	g++ -c Car.cpp -o Car.o

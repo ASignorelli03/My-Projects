@@ -1,0 +1,20 @@
+RBT.exe: driver.o RedBlackTree.o BinarySearchTree.o TreeNode.o Node.o
+	g++ driver.o RedBlackTree.o BinarySearchTree.o TreeNode.o Node.o -o RBT.exe
+	
+driver.o:
+	g++ -c driver.cpp -o driver.o
+	
+RedBlackTree.o:
+	g++ -c RedBlackTree.cpp -o RedBlackTree.o
+	
+BinarySearchTree.o:
+	g++ -c BinarySearchTree.cpp -o BinarySearchTree.o
+	
+TreeNode.o:
+	g++ -c TreeNode.cpp -o TreeNode.o
+	
+Node.o:
+	g++ -c Node.cpp -o Node.o
+	
+clean:
+	rm *.o RBT.exe

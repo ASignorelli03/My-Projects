@@ -1,0 +1,17 @@
+bit.exe: driver.o dictionary.o set.o bitarray.o
+	g++ driver.o dictionary.o set.o bitarray.o -o bit.exe
+
+driver.o:
+	g++ -c driver.cpp -o driver.o
+	
+dictionary.o:
+	g++ -c dictionary.cpp -o dictionary.o
+	
+set.o:
+	g++ -c set.cpp -o set.o
+
+bitarray.o:
+	g++ -c bitarray.cpp -o bitarray.o
+
+clean:
+	rm *.o bit.exe
