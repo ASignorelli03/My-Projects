@@ -1,0 +1,34 @@
+Create Table species(
+	sname varchar(20),
+	leader varchar(20),
+	origin varchar(50),
+	affiliation enum("light","dark","neither"),
+	Primary Key(sname) );
+
+Create Table entities(
+	name varchar(20),
+	health int,
+	gender enum("male","female","unknown"),
+	threat_level int,
+	Primary Key(name) );
+	
+Create Table planets(
+	pname varchar(20),
+	size(km^2) int,
+	distance_sun(Miles) int,
+	temp(°F) int,
+	Primary Key(pname) );
+
+Create Table belongs_to(
+	name varchar(20),
+	sname varchar(20),
+	family varchar(20),
+	Primary Key(name),
+	Foreign Key entities(name) );
+
+Create Table lives_on(
+	sname varchar(20),
+	pname varchar(20),
+	Primary Key(sname),
+	Foreign Key species(sname) );
+	

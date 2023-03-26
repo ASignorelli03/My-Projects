@@ -1,0 +1,367 @@
+1.List the possible dinosaur colors.
+select distinct color from species;
++--------+
+| color  |
++--------+
+| brown  |
+| green  |
+| blue   |
+| tan    |
+| red    |
+| gray   |
+| silver |
+| orange |
+| yellow |
++--------+
+2.Who are the Green Giants? List all the names of dinosaurs that are in the WG cage that are also the color green.
+select name from dino natural join species where color='green' and cageID='WG';
++------------+
+| name       |
++------------+
+| Bernadette |
+| Howard     |
+| Raj        |
+| Stuart     |
++------------+
+3.My Favorite Color: List the cages that contain blue dinosaurs.
+select distinct cageID from species natural join dino where color='blue';
++--------+
+| cageID |
++--------+
+| AV     |
+| PZ     |
++--------+
+4.List the names of the carnivores.
+select name from dino join species where dino.sname=species.sname and species.diet='carnivore';
++-----------+
+| name      |
++-----------+
+| Charles   |
+| Mulcahy   |
+| Hawkeye   |
+| Bart      |
+| Homer     |
+| Elizabeth |
+| Henry     |
+| Margaret  |
+| Sherman   |
+| BJ        |
+| Trapper   |
++-----------+
+5.Vet rounds: List the name, species, cage, severity, and description of dinosaurs on the injured list.
+select name,sname,cageID,severity,description from dino join injured_list where dino.name=injured_list.dname;
++-----------+-------------------+--------+----------+------------------------------------------+
+| name      | sname             | cageID | severity | description                              |
++-----------+-------------------+--------+----------+------------------------------------------+
+| Elizabeth | Tyrannosaurus Rex | WT     |        2 | bunion on right foot - keep an eye on it |
+| Ellie     | Elasmosaurus      | AQ     |        1 | small cut on right front flipper         |
+| Sheldon   | Diplodocus        | WG     |        1 | nothing - he is a hypochondriac          |
+| Harry     | Triceratops       | PZ     |        5 | injury on his forehead                   |
+| Ellie     | Elasmosaurus      | AQ     |        6 | broken tailbone                          |
++-----------+-------------------+--------+----------+------------------------------------------+
+6.List the name, species, and cage of adult female dinosaurs that share a cage with an adult male of the same species.
+ select distinct d1.name,d1.sname,d1.cageID from dino d1,dino d2 where d1.gender='female' and d2.gender='male' and d1.age='adult' and d2.age='adult' and d1.cageID=d2.cageID and d1.sname=d2.sname;
++------------+--------------------+--------+
+| name       | sname              | cageID |
++------------+--------------------+--------+
+| Amy        | Diplodocus         | WG     |
+| Bernadette | Apatosaurus        | WG     |
+| Kirstin    | Pteranodon         | AV     |
+| Margaret   | Tyrannosaurus Rex  | WT     |
+| Meredith   | Ankylosaurus       | WP     |
+| Pam        | Triceratops        | WP     |
+| Penny      | Brachiosaurus      | WG     |
+| Phyllis    | Pachycephalosaurus | WP     |
+| Priya      | Brachiosaurus      | WG     |
++------------+--------------------+--------+
+7.List the names of all baby dinosaurs that are not at the petting zoo.
+select name from dino where cageID<>'PZ' and age='baby';
++--------+
+| name   |
++--------+
+| Maggie |
++--------+
+8.List the names of herbivores that are in the same cage as one or more carnivores.
+select name from dino join species where diet='herbivore' and cageID union(select name from dino natural join species where diet='carnivore');
++-----------+
+| name      |
++-----------+
+| Charles   |
+| Mulcahy   |
+| Hawkeye   |
+| Bart      |
+| Homer     |
+| Elizabeth |
+| Henry     |
+| Margaret  |
+| Sherman   |
+| BJ        |
+| Trapper   |
++-----------+
+
+9.List the names of flying dinosaurs that are in cages without a roof. 
+select name from dino natural join cage natural join species where dino.cageID=cage.ID and cage.hasroof='no' and species.locomotion='fly';
++------+
+| name |
++------+
+| Luna |
++------+
+10.List the names of all the dinosaurs, grouped by the cage they are in.
+select cageID,name from dino group by cageID,name;
++--------+------------+
+| cageID | name       |
++--------+------------+
+| AQ     | Bart       |
+| AQ     | Ellie      |
+| AQ     | Homer      |
+| AQ     | Lisa       |
+| AQ     | Maggie     |
+| AQ     | Marge      |
+| AV     | Avi        |
+| AV     | Kirstin    |
+| AV     | KO         |
+| AV     | Lindsey    |
+| AV     | Matt       |
+| AV     | Mitch      |
+| AV     | Scott      |
+| PZ     | Dobby      |
+| PZ     | Draco      |
+| PZ     | Ginny      |
+| PZ     | Harry      |
+| PZ     | Hedwig     |
+| PZ     | Hermione   |
+| PZ     | Luna       |
+| PZ     | Neville    |
+| PZ     | Ron        |
+| WG     | Amy        |
+| WG     | Bernadette |
+| WG     | Dan        |
+| WG     | Howard     |
+| WG     | Kripke     |
+| WG     | Leonard    |
+| WG     | Penny      |
+| WG     | Priya      |
+| WG     | Raj        |
+| WG     | Sheldon    |
+| WG     | Stuart     |
+| WP     | Angela     |
+| WP     | Cera       |
+| WP     | Dwight     |
+| WP     | Jan        |
+| WP     | Jim        |
+| WP     | Kevin      |
+| WP     | Meredith   |
+| WP     | Michael    |
+| WP     | Oscar      |
+| WP     | Pam        |
+| WP     | Phyllis    |
+| WP     | Roy        |
+| WP     | Ryan       |
+| WP     | Stanley    |
+| WP     | Stephanie  |
+| WT     | BJ         |
+| WT     | Charles    |
+| WT     | Elizabeth  |
+| WT     | Frank      |
+| WT     | Hawkeye    |
+| WT     | Henry      |
+| WT     | Klinger    |
+| WT     | Margaret   |
+| WT     | Mulcahy    |
+| WT     | Radar      |
+| WT     | Sherman    |
+| WT     | Trapper    |
++--------+------------+
+11.List all species that have at least one dinosaur in every cage that contains a Triceratops.
+select distinct A.sname from species A where not exists (select * from species B natural join dino C where B.sname='triceratops' and not exists (select * from species D natural join dino E where E.cageID=C.cageID and D.sname=A.sname));
++--------------------+
+| sname              |
++--------------------+
+| Ankylosaurus       |
+| Iguanodon          |
+| Maiasaurus         |
+| Pachycephalosaurus |
+| Stegosaurus        |
+| Triceratops        |
++--------------------+
+12.Which species is the heaviest?
+select sname from species where wt=(select max(wt) as maxwt from species where wt_unit='tons');
++------------+
+| sname      |
++------------+
+| Diplodocus |
++------------+
+13.Compute and list the amount of extra room for more dinosaurs there is for each cage. Include the cage ID in your output.
+select c1.ID,c1.capacity - count(d1.cageID) as numleft from cage c1 join dino d1 on c1.ID=d1.cageID group by c1.ID;
++----+---------+
+| ID | numleft |
++----+---------+
+| AQ |      94 |
+| AV |      93 |
+| PZ |      41 |
+| WG |     239 |
+| WP |     985 |
+| WT |      88 |
++----+---------+
+14.Which cage has the highest average danger level?
+select cageID from (select max(a) as m from (select cageID,avg(danger_level) as a from dino natural join species group by cageID) as t) as s, (select cageID,avg(danger_level) as a from dino natural join species group by cageID) as u where s.m=u.a;
++--------+
+| cageID |
++--------+
+| WT     |
++--------+
+15.How many people can get a dinosaur ride in a given week?
+select sum(numpeople) from capacity natural join schedule;
++----------------+
+| sum(numpeople) |
++----------------+
+|            224 |
++----------------+
+16.Update the injured list by adding another entry for Sheldon with a broken nose, severity 6.
+insert into injured_list (dname,severity,description) values ('Sheldon',6,'broken nose');
+Query OK, 1 row affected (0.00 sec)
+select * from injured_list;
++-----------+----------+------------------------------------------+
+| dname     | severity | description                              |
++-----------+----------+------------------------------------------+
+| Elizabeth |        2 | bunion on right foot - keep an eye on it |
+| Ellie     |        1 | small cut on right front flipper         |
+| Sheldon   |        1 | nothing - he is a hypochondriac          |
+| Harry     |        5 | injury on his forehead                   |
+| Ellie     |        6 | broken tailbone                          |
+| Sheldon   |        6 | broken nose                              |
++-----------+----------+------------------------------------------+
+17.Write a query to remove all dinosaurs from the schedule if they have an injury of severity 4 or larger.
+delete from schedule where dname in(select dname from injured_list where severity >=4);
+Query OK, 2 rows affected (0.00 sec)
+select * from schedule;
++-------+------+-----------+
+| dname | day  | time      |
++-------+------+-----------+
+| Dan   | tue  | morning   |
+| Dan   | thu  | morning   |
+| Penny | mon  | afternoon |
+| Pam   | wed  | morning   |
+| Ron   | fri  | morning   |
+| Ginny | fri  | morning   |
+| Scott | thu  | afternoon |
+| Matt  | thu  | afternoon |
+| Penny | wed  | afternoon |
+| Pam   | fri  | morning   |
+| Ron   | fri  | afternoon |
+| Ginny | fri  | afternoon |
+| Scott | tue  | afternoon |
+| Matt  | tue  | afternoon |
++-------+------+-----------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q5 notes
+
+1. Find the ID of each employee who does not work for First Bank Corporation.
+
+SELECT ID
+FROM employee
+WHERE company-name != "First Bank Corporation";
+
+Pretty straightforward, can also do <> instead of !=.
+
+2. Find the name of each company that is located in every city in which "Small Bank Corporation" is located.
+
+SELECT company-name
+FROM company as c
+WHERE NOT EXISTS
+(SELECT city
+FROM company
+WHERE company_name = "Small Bank Corporation" AND city NOT IN
+(SELECT city
+FROM company as d
+WHERE c.company-name = d.company-name));
+
+This one's a little tricky. Here was my thought process:
+We are trying to find the company names that exist in all the same cities as Small Bank Corporation. These companies ay also exist in cities that Small Bank Corporation is not in, so that makes it a bit harder.
+The basic structure of the query is as follows: the second where subclause is a list of the cities that an individual company exists in. The first subquery is selecting a list of the cities that 1. contain Small Bank Corporation, and 2. are not in the list of cities that the company exists in. We do not want companies that meet this criteria, so we do a NOT EXISTS before the where clause.
+
+In English, the query is as follows:
+Select a company from our list that does not have the list of cities that Small Bank Corporation exists in as a non-subset of the list of the company's cities.
+
+Or in better words,
+Select a company from our list that has the list of all cities of Small Bank Corporation as a subset of the cities that our company exists in.
+
+3. Find the name of the company with the most employees.
+
+SELECT company-name
+FROM company
+GROUP BY company-name
+HAVING COUNT(ID) >= ALL
+(SELECT COUNT(ID)
+FROM company
+GROUP BY company-name);
+
+In this case we want to compare the number of employees PER COMPANY, so we know we'll use a having clause. We use count to find the number of employees per company, then compare it to each other count per company.

@@ -1,0 +1,195 @@
+Dreg	100	male	1
+Vandal	130	male	1
+Wretch	130	female	2
+Marauder	200	male	2
+Stealth_Vandal	210	female	2
+Captain	780	male	4
+Shank	79	neither	1
+Servitor	943	male	4
+Skiff	11854	neither	3
+Walker	33201	unknown	4
+Pike	667	unknown	3
+Thrall	40	male	1
+Cursed_Thrall	110	female	2
+Acolyte	368	female	3
+Knight	1001	female	4
+Wizard	989	male	4
+Ogre	7777	male	4
+Shrieker	7778	neither	3
+TombShip	30111	neither	1
+Goblin	202	unknown	1
+Hobgoblin	404	unknown	1
+Harpy	345	neither	1
+Hydra	9876	male	4
+Minotaur	8797	female	4
+Cyclops	16834	female	4
+Fanatic	9782	female	3
+Wyvern	2313	male	4
+Legionary	430	male	1
+Phalanx	1722	male	11
+Colossus	4444	male	3
+Psion	161	male	1
+Harvester	384	female	1
+War_Beast	76	male	1
+Centurion	5040	male	2
+Gladiator	4050	male	3
+Incendior	6712	male	3
+Interceptor	50294	neither	3
+Goliath_Tank	100000	neither	4
+Screeb	29	male	3
+Stalker	99	male	2
+Ravager	301	female	2
+Wraith	301	female	2
+Raider	401	unknown	1
+Lurker	501	unknown	1
+Abomination	701	unknown	3
+Chieftan	1001	male	3
+Infected_Walker	10101	neither	4
+Deksis-5_Taskmaster	100000	male	5
+Ak-Barak_Rival_of_Navota	100000	male	5
+Inkasi_Disciple_of_Quria	150000	female	5
+Yirksii_Subersive_Chieftain	124200	female	5
+Ur_Haraak_Disciple_of_Quria	321213	male	5
+Alkestis_Sacrificial_Mind	123120	neither	5
+Inquisitor_Hydra	111999	male	5
+Teliks_House_Salvation	242211	male	5
+Sunless_Captain	33112	male	5
+Skexis_Outcast_Captain	431545	male	5
+Mazon_Lost_Captain	295452	female	5
+Groxus_Blind_Captain	199999	male	5
+Metal_Captain	278921	neither	5
+Drained_Captain	266032	neither	5
+Downpour_Captain	266348	neither	5
+Zerz_The_Unstoppable_Wight	111111	male	5
+Dust_Choked_Thrag	222222	male	5
+Kurg_The_All-seeing_Force	333333	male	5
+Devourer_Darg	222333	female	5
+Fortifier_Yann	11321	female	5
+Phyzann_Drowned_Captain	500000	male	5
+Vendraxis_Shadow_of_Oryx	400111	female	5
+Calzar_Scarred_Captain	213213	male	5
+Varghul_Fragment_of_Oryx	512000	female	5
+Kelnix_Reborn	222991	neither	5
+Reyiks_Actuator	123643	neither	5
+Arguth_The_Tormented	329000	male	5
+Reyiks_Retreiver	349000	female	5
+Thyrdron	103255	male	5
+Tattered_Dusk_Captain	220450	male	5
+Nariks_Reborn	199999	neither	5
+Shayotet_Partisan	198888	female	5
+Pakrion	197998	male	5
+Aziis_Dusk_Master	312000	male	5
+Vilzii_Scorn_Chieftan	474000	female	5
+Garut_Gra'am	100100	male	5
+Zetix-7	301921	neither	5
+Segrex_The_Tainted	94330	neither	5
+Vorgeth	200000	male	5
+Dul_Incaru	900000	female	6
+Zulmak	1800000	male	6
+Phalanx_Echo	1400000	male	7
+Kell_Echo	7000000	female	10
+Phry'zhia_the_Insatiable	3602324	neither	7
+Avarokk_the_Covetous	9000000	male	10
+Gahlran_Sorrow_Bearer	7123231	male	7
+Caiatl_Princess-imperial	11321777	female	10
+Bracus_Zahn	456765	male	6
+Grask_the_Consumed	613242	male	6
+Thaviks_The_Depraved	124542	male	6
+Protheon_Modular_Mind	213402	neither	6
+Valus_Thuun	100300	male	6
+Nokris_Herold_of_Xol	611304	female	6
+Xol_Will_of_the_Thousands	811118	male	7
+Kargen_the_Technocrat	321123	male	7
+Mad_Warden	332223	neither	6
+Ananh_Brood_Queen	67324	female	6
+The_Fanatic	876540	male	7
+Sedia_the_Corrupted	999222	female	5
+Hashladun	333211	female	6
+Transcendant_Mind	345671	neither	6
+Navota_Eir_Spawn	111111	female	6
+Sepiks_Prime	934292	male	6
+FALLEN_S.A.B.E.R.	500000	neither	7
+Ignovun_the_Chosen	500000	male	6
+Alak-Hul_the_Lightblade	520000	male	6
+Heimikes_Warden_of_the_Harvest	530102	male	6
+Crota_Son_of_Oryx	5000000	male	10
+Emperor_Calus	2000000	male	10
+Argos_Planetary_Core	3600000	neither	7
+Atheon_Time'sConflux	9000000	neither	8
+Gahlran	1500000	male	8
+Aksis_Archon_Prime	6000000	male	8
+Insurrection_Prime_Kell's_Scourge	4500000	neither	7
+Val_Ca'uor	2500000	male	7
+Oryx_The_Taken_King	9000000	male	10
+Taniks_The_Abomination	5000000	male	9
+Sanctified_Mind	2000000	neither	7
+Riven_of_a_Thousand_Voices	3000000	female	8
+Rhulk_Disciple_of_the_Witness	8000000	male	8
+Rasputin	500000	neither	10
+Clovis_Bray 1.0	195	male	1
+Clovis_Bray 1.1	195	male	1
+Clovis_Bray 1.2	195	male	1
+Clovis_Bray 1.3	195	male	1
+Clovis_Bray 1.4	195	male	1
+Clovis_Bray 1.5	195	male	1
+Clovis_Bray 1.6	195	male	1
+Clovis_Bray 1.7	195	male	1
+Clovis_Bray 1.8	195	male	1
+Clovis_Bray 1.9	195	male	1
+Clovis_Bray 2.0	195	male	1
+Clovis_Bray 2.1	195	male	1
+Clovis_Bray 2.2	195	male	1
+Clovis_Bray 2.3	195	male	1
+Clovis_Bray 2.4	195	male	1
+Clovis_Bray 2.5	195	male	1
+Clovis_Bray 2.6	195	male	1
+Clovis_Bray 2.7	195	male	1
+Clovis_Bray 2.8	195	male	1
+Clovis_Bray 2.9	194	female	2
+Clovis_Bray 3.0	195	male	1
+Clovis_Bray 3.1	195	male	1
+Clovis_Bray 3.2	195	male	1
+Clovis_Bray 3.3	195	male	1
+Clovis_Bray 3.4	195	male	1
+Clovis_Bray 3.5	195	male	1
+Clovis_Bray 3.6	195	male	1
+Clovis_Bray 3.7	195	male	1
+Clovis_Bray 3.8	195	male	1
+Clovis_Bray 3.9	195	male	1
+Zavala	198	male	1
+Saint-14	198	male	1
+Osiris	199	male	1
+Lord_Shaxx	197	male	1
+Ikora	196	female	1
+Eris_Morn	196	female	1
+Crow	192	male	1
+Exo_Stranger	192	female	1
+Drifter	196	male	1
+Amanda_Holiday	130	female	1
+Ada-1	195	neither	1
+Ana_Bray	149	female	1
+Asher_Mir	130	male	1
+Benedict_99-40	99	male	1
+Brother_Vance	99	male	1
+Cayde-6	192	male	1
+Devrim_Kay	99	male	1
+Eva_Levante	99	female	1
+FailSafe	33	neither	1
+Fynch	21	neither	1
+Lakshmi-2	99	female	1
+Lord_Saladin	199	male	1
+Master_Rahool	99	male	1
+Petra_Venj	191	female	1
+Mara_Sov	256	female	1
+Shaw_Han	54	male	1
+Sloane	71	female	1
+Spider	399	male	2
+Starhourse	999999999	neither	1
+Suraya_Hawthorne	99	female	1
+Tess_Everis	99	female	1
+Emissary	999999999	neither	1
+Tyra_Karn	99	female	1
+Variks_the_Loyal	230	male	1
+Visage_of_Calus	229	neither	1
+Xur	999999999	male	1
+Yuna	99	female	1

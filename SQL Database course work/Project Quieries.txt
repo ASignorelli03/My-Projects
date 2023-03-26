@@ -1,0 +1,31 @@
+1. All entities that are Cabal
+select name from belongs_to where sname='Cabal';
+2. The average temp of the planets
+select avg(temp) from planets;
+3. The name and health of entities that have lower than 200 health and are female
+select name,health from entity where health<200 and gender='female';
+4. The name entities that are more dangerous than level 7 and weaker than 3000 health
+select name from entity where danger_level>7 and health<3000;
+5. The name of entities that are affiliated with the dark
+select name from belongs_to natural join species where affiliation='dark';
+6. All entities ordered by species
+select name from belongs_to order by sname;
+7. All attributes of the planet with the most surface_gravity
+select pname,size,distance_sun,temp,surface_gravity from planets where surface_gravity=(select max(surface_gravity) as m from planets);
+8. Which species has the highest average danger level?
+select sname from (select max(a) as m 
+from (select sname,avg(danger_level) as a 
+from belongs_to natural join species natural join entity 
+group by sname) as t) as s, 
+(select sname,avg(danger_level) as a 
+from belongs_to natural join species natural join entity 
+group by sname) as u 
+where s.m=u.a;
+9. The number of occupants on each planet
+select distinct pname,count(name) as num_Occupants
+from planets natural join lives_on natural join belongs_to
+group by pname;
+10. Planets overrun by dark entities
+select pname 
+from species natural join lives_on
+where affiliation='dark';

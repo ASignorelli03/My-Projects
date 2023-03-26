@@ -1,0 +1,195 @@
+Dreg	Fallen	
+Vandal	Fallen	
+Wretch	Fallen	
+Marauder	Fallen	
+Stealth_Vandal	Fallen	
+Captain	Fallen	
+Shank	Fallen	
+Servitor	Fallen	
+Skiff	Fallen	
+Walker	Fallen	
+Pike	Fallen	
+Thrall	Hive	
+Cursed_Thrall	Hive	
+Acolyte	Hive	
+Knight	Hive	
+Wizard	Hive	
+Ogre	Hive	
+Shrieker	Hive	
+TombShip	Hive	
+Goblin	Vex	
+Hobgoblin	Vex	
+Harpy	Vex	
+Hydra	Vex	
+Minotaur	Vex	
+Cyclops	Vex	
+Fanatic	Vex	
+Wyvern	Vex	
+Legionary	Cabal	
+Phalanx	Cabal	
+Colossus	Cabal	
+Psion	Cabal	
+Harvester	Cabal	
+War_Beast	Cabal	
+Centurion	Cabal	
+Gladiator	Cabal	
+Incendior	Cabal	
+Interceptor	Cabal	
+GoliathTank	Cabal	
+Screeb	Scorn	
+Stalker	Scorn	
+Ravager	Scorn	
+Wraith	Scorn	
+Raider	Scorn	
+Lurker	Scorn	
+Abomination	Scorn	
+Chieftan	Scorn	
+Infected_Walker	Scorn	
+Deksis-5_Taskmaster	Fallen	
+Ak-Barak_Rival_of_Navota	Hive	
+Inkasi_Disciple_of_Quria	Taken	
+Yirksii_Subersive_Chieftain	Scorn	
+Ur_Haraak_Disciple_of_Quria	Taken	
+Alkestis_Sacrificial_Mind	Vex	
+Inquisitor_Hydra	Vex	
+Teliks_House_Salvation	Fallen	
+Sunless_Captain	Fallen	
+Skexis_Outcast_Captain	Fallen	
+Mazon_Lost_Captain	Fallen	
+Groxus_Blind_Captain	Fallen	
+Metal_Captain	Fallen	
+Drained_Captain	Fallen	
+Downpour_Captain	Fallen	
+Zerz_The_Unstoppable_Wight	Cabal	
+Dust_Choked_Thrag	Cabal	
+Kurg_The_All-seeing_Force	Cabal	
+Devourer_Darg	Cabal	
+Fortifier_Yann	Cabal	
+Phyzann_Drowned_Captain	Fallen	
+Vendraxis_Shadow_of_Oryx	Taken	
+Calzar_Scarred_Captain	Fallen	
+Varghul_Fragment_of_Oryx	Taken	
+Kelnix_Reborn	Fallen	
+Reyiks_Actuator	Fallen	
+Arguth_The_Tormented	Hive	
+Reyiks_Retreiver	Fallen	
+Thyrdron	Vex	
+Tattered_Dusk_Captain	Fallen	
+Nariks_Reborn	Fallen	
+Shayotet_Partisan	Cabal	
+Pakrion	Vex	
+Aziis_Dusk_Master	Cabal	
+Vilzii_Scorn_Chieftan	Scorn	
+Garut_Gra'am	Cabal	
+Zetix-7	Fallen	
+Segrex_The_Tainted	Hive	
+Vorgeth	Taken	
+Dul_Incaru	Taken	
+Zulmak	Hive	
+Phalanx_Echo	Taken	
+Kell_Echo	Taken	
+Phry'zhia_the_Insatiable	Hive	
+Avarokk_the_Covetous	Fallen	
+Gahlran_Sorrow_Bearer	Cabal	
+Caiatl_Princess-imperial	Cabal	
+Bracus_Zahn	Cabal	
+Grask_the_Consumed	Taken	
+Thaviks_The_Depraved	Fallen	
+Protheon_Modular_Mind	Vex	
+Valus_Thuun	Cabal	
+Nokris_Herold_of_Xol	Hive	
+Xol_Will_of_the_Thousands	Hive	
+Kargen_the_Technocrat	Cabal	
+Mad_Warden	Fallen	
+Ananh_Brood_Queen	Scorn	
+The_Fanatic	Scorn	
+Sedia_the_Corrupted	Taken	
+Hashladun	Hive	
+Transcendant_Mind	Vex	
+Navota_Eir_Spawn	Hive	
+Sepiks_Prime	Fallen	
+FALLEN_S.A.B.E.R.	Fallen	
+Ignovun_the_Chosen	Cabal	
+Alak-Hul_the_Lightblade	Hive	
+Heimikes_Warden_of_the_Harvest	Hive	
+Crota_Son_of_Oryx	Hive	
+Emperor_Calus	Cabal	
+Argos_Planetary_Core	Vex	
+Atheon_Time's_Conflux	Vex	
+Gahlran	Cabal	
+Aksis_Archon_Prime	Exo	
+Insurrection_Prime_Kell's_Scourge	Fallen	
+Val_Ca'uor	Cabal	
+Oryx_The_Taken_King	Hive	
+Taniks_The_Abomination	Fallen	
+Sanctified_Mind	Vex	
+Riven_of_a_Thousand_Voices	Taken	
+Rhulk_Disciple_of_the_Witness	Hive	
+Rasputin	Exo	
+Clovis_Bray 1.0	Exo	
+Clovis_Bray 1.1	Exo	
+Clovis_Bray 1.2	Exo	
+Clovis_Bray 1.3	Exo	
+Clovis_Bray 1.4	Exo	
+Clovis_Bray 1.5	Exo	
+Clovis_Bray 1.6	Exo	
+Clovis_Bray 1.7	Exo	
+Clovis_Bray 1.8	Exo	
+Clovis_Bray 1.9	Exo	
+Clovis_Bray 2.0	Exo	
+Clovis_Bray 2.1	Exo	
+Clovis_Bray 2.2	Exo	
+Clovis_Bray 2.3	Exo	
+Clovis_Bray 2.4	Exo	
+Clovis_Bray 2.5	Exo	
+Clovis_Bray 2.6	Exo	
+Clovis_Bray 2.7	Exo	
+Clovis_Bray 2.8	Exo	
+Clovis_Bray 2.9	Exo	
+Clovis_Bray 3.0	Exo	
+Clovis_Bray 3.1	Exo	
+Clovis_Bray 3.2	Exo	
+Clovis_Bray 3.3	Exo	
+Clovis_Bray 3.4	Exo	
+Clovis_Bray 3.5	Exo	
+Clovis_Bray 3.6	Exo	
+Clovis_Bray 3.7	Exo	
+Clovis_Bray 3.8	Exo	
+Clovis_Bray 3.9	Exo	
+Zavala	Awoken	
+Saint-14	Human	
+Osiris	Human	
+Lord_Shaxx	Human	
+Ikora	Human	
+Eris_Morn	Human	
+Crow	Awoken	
+Exo_Stranger	Exo	
+Drifter	Human	
+Amanda_Holiday	Human	
+Ada-1	Exo	
+Ana_Bray	Human	
+Asher_Mir	Awoken	
+Benedict_99-40	Exo	
+Brother_Vance	Human	
+Cayde-6	Exo	
+Devrim_Kay	Human	
+Eva_Levante	Human	
+FailSafe	Exo	
+Fynch	Envoy	
+Lakshmi-2	Exo	
+Lord_Saladin	Human	
+Master_Rahool	Awoken	
+Petra_Venj	Awoken	
+Mara_Sov	Awoken	
+Shaw_Han	Human	
+Sloane	Human	
+Spider	Fallen	
+Starhourse	Paraversal	
+Suraya_Hawthorne	Human	
+Tess_Everis	Awoken	
+Emissary	Paraversal	
+Tyra_Karn	Human	
+Variks_the_Loyal	fallen	
+Visage_of_Calus	Exo	
+Xur	Paraversal	
+Yuna	Human	

@@ -1,0 +1,11 @@
+sname	pname	
+Human	Earth	
+Awoken	Reef	
+Exo	Europa	
+Paraversal	IO	
+Fallen	Titan	
+Hive	Mars	
+Vex	Nessus	
+Cabal	Torobatl	
+Scorn	Reef	
+Taken	IO	
